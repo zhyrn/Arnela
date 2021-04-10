@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* HEADER */
+
+.bg-holder {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/bg.jpg) no-repeat center center fixed;
+}
+
+.bg-h1 {
+    text-shadow: 1px 1px black;
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 200px;
+    padding-top: 100px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+
+/* ABOUT */
+
+.about h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.about-img {
+    margin-top: 50px;
+    width: 30vw;
+    clip-path: circle(65.2% at 50% 50%);
+}
+
+
+/* MY WORK */
+
+.my-work-h2 {
+    margin: 100px 0;
+}
+
+.my-work img {
+    width: 100%;
+    padding-bottom: 30px;
+    clip-path: circle(49.0% at 50% 50%);
+}
+
+/* CONTACT */
+
+.contact-h2 {
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 40px;
+}
+
+i {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #171212;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer div {
+    width: 100%;
+}
+
+
+/* RESPONSIVITY */
+
+@media screen and (max-width: 500px) {
+    .bg-holder {
+        background-position-x: -350px;
+    }
+ 
+    .about-img {
+        width: 100%;
+    }
+}
